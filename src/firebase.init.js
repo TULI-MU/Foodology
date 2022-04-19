@@ -6,11 +6,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyCKwSXfoT1qQrBxsvTX44bKqdZbkN3menI",
-    authDomain: "independent-service-prov-17ef7.firebaseapp.com",
-    projectId: "independent-service-prov-17ef7",
-       messagingSenderId: "682752143105",
-    appId: "1:682752143105:web:bceb1cfe644748b6483500"
+    apiKey: "AIzaSyAvAzufTLf3pYgqPjjZag_HWAH_Lo2zUj4",
+    authDomain: "foodology-service-9f7f1.firebaseapp.com",
+    projectId: "foodology-service-9f7f1",
+    storageBucket: "foodology-service-9f7f1.appspot.com",
+    messagingSenderId: "661569717377",
+    appId: "1:661569717377:web:11bc06aa259254cea43980"
 };
 
 // Initialize Firebase
