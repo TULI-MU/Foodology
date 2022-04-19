@@ -15,10 +15,10 @@ const Program = ({ program }) => {
         <div className='program'>
             <img className='w-100' src={img} alt="" />
             <h2>{name}</h2>
-            <h4>Package: {price}</h4>
+            <h4>Price: {price}</h4>
             <h4>Person:{person}</h4>
             <p><small>{description}</small></p>
-            <button onClick={() => navigateToProgramDetail(id)} className='btn'>Select Program</button>
+            <button onClick={() => navigateToProgramDetail(id)} className='btn'>{name}</button>
         </div>
     );
 };

@@ -3,9 +3,9 @@
 #Live-link:
 
 #About My website:
+Here you can order food for your special program by sitting in home.
 Features: 
 HOME PAGE:
-Here you can order food for your special program by sitting in home.
 •	Banner:Some special food banners are included.
 •	Programs:Through this section you can find out what programs we deliver our food service.
 •	Menu:Here you can find out the details of the food menu.

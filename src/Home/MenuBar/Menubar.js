@@ -12,7 +12,7 @@ const menuBar = [
 const MenuBar = () => {
     return (
         <div id='menu' className='container'>
-            <h2 className='text-primary text-center mt-5'>Our  Menu</h2>
+            <h2 className='text-success text-center mt-5'>Our  Menu</h2>
             <div className="row">
                 {
                     menuBar.map(menu => <Menu
