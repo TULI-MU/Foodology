@@ -19,6 +19,11 @@ const Blogs = () => {
             <li>Checks the security level and privilege of the user, thus determining what the user can or cannot have access to</li>
             <li>Data provided via Access token</li>
             <li>User cannot modify the Authorization permissions as it is given to a user by the owner/manager of the system, and only has the authority to change it.</li>
+
+            <h2>Why are you using firebase?</h2>
+            <h4>Answer:</h4>
+            <h3>Firebase by Google can be used for the following: Firebase manages all data real-time in the database. So, the exchange of data to and fro from the database is easy and quick. Hence, if you are looking to develop mobile apps such as live streaming, chat messaging, etc. you can use Firebase.</h3>
+            <h3>hjjjjjyd</h3>
         </div>
     );
 };

@@ -4,7 +4,6 @@ import './Program.css';
 
 const Program = ({ program }) => {
     const { id, name, price, person, description, img } = program;
-    //i tried to distructuring bt don't work.
     // console.log(props.name);
     const navigate = useNavigate();
 
