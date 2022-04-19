@@ -13,7 +13,10 @@ const Footer = () => {
                 <p className='left'><small>healthy food delivery</small></p>
             </div>
             <div>
-                <p><small>copyright @ {year} </small></p></div>
+                <h5>Contact:</h5>
+                <p>01746861166</p>
+                <p>pauljoyosree12@gmail.com</p>
+                <p className='text-center'><small>copyright @ {year} </small></p></div>
         </footer>
     );
 };

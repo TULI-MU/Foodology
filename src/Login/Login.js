@@ -76,8 +76,9 @@ const Login = () => {
                 </Button>
             </Form>
             {errorElement}
-            <p>New to Foodology? <Link to="/register" className='text-primary pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link> </p>
-            <p>Forget Password? <button className='btn btn-link text-white text-decoration-none' onClick={resetPassword} >Reset Password</button> </p>
+            <p>Don't have account? <Link to="/register" className='text-primary pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link> </p>
+            <p>Forget Password?</p>
+            <p><button className='btn btn-link text-white text-decoration-none' onClick={resetPassword} >Reset Password</button> </p>
             <SocialLogin></SocialLogin>
             <ToastContainer />
         </div>

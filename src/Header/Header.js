@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../firebase.init';
 import { signOut } from 'firebase/auth';
+import './Header.css';
 
 
 const Header = () => {
@@ -30,8 +31,8 @@ const Header = () => {
                             <Nav.Link href="blogs">Blogs</Nav.Link>
 
                         </Nav>
-                        <Nav>
-                            <Nav.Link as={Link} to="about">About Us</Nav.Link>
+                        <Nav className='me-auto'>
+                            <Nav.Link as={Link} to="about">About Me</Nav.Link>
 
 
                             {
