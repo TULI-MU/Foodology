@@ -9,7 +9,7 @@ const Program = ({ program }) => {
 
     const navigateToProgramDetail = id => {
 
-        navigate(`/program/${id}`);
+        navigate('/checkout');
     }
     return (
         <div className='program'>

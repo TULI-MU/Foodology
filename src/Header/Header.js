@@ -30,6 +30,7 @@ const Header = () => {
                             <Nav.Link href="home#menu">Menu</Nav.Link>
                             <Nav.Link href="blog">Blogs</Nav.Link>
 
+
                         </Nav>
                         <Nav className='me-auto'>
                             <Nav.Link as={Link} to="about">About Me</Nav.Link>
@@ -42,6 +43,7 @@ const Header = () => {
                                     <Nav.Link as={Link} to="login">
                                         Login
                                     </Nav.Link>}
+                            <Nav.Link href="/checkout">CheckOut</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
