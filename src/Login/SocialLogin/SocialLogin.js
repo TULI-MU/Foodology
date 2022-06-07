@@ -10,7 +10,7 @@ import Loading from '../../Loading/Loading';
 
 
 const SocialLogin = () => {
-    const [signInWithGoogle, user, loading, notloading, error] = useSignInWithGoogle(auth);
+    const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
 
 
 
@@ -18,7 +18,7 @@ const SocialLogin = () => {
 
     let errorElement;
 
-    if (loading || notloading) {
+    if (loading) {
         return <Loading></Loading>
     }
 
